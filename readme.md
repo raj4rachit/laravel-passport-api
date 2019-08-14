@@ -1,4 +1,4 @@
-# API Laravel Passport
+# API Laravel 5.8 using Passport
 
 API documentation [here](https://documenter.getpostman.com/view/6336991/SVYwMHME) in postman
 
@@ -25,12 +25,12 @@ $ cd laravel-passport-api
 
 3. Install composer dependencies
 ```
-~/laravel-passport-api$ composer install
+$ composer install
 ```
 
 4. Generate APP_KEY
 ```
-~/laravel-passport-api$ php artisan key:generate
+$ php artisan key:generate
 ```
 
 5. Configure .env file, edit file with next command `$ nano .env`
@@ -45,12 +45,12 @@ DB_PASSWORD=secret
 
 6. Run migrations
 ```
-~/laravel-passport-api$ php artisan migrate
+$ php artisan migrate
 ```
 
 7. Create client
 ```
-~/laravel-passport-api$ php artisan passport:install
+$ php artisan passport:install
 ```
 
 
